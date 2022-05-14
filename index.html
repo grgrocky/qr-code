@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@400;700&family=Poppins:wght@600&family=Raleway:ital,wght@1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Outfit&family=Poppins:wght@600&family=Raleway:ital,wght@1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: lightgreen;
+      
+    }
+        .attribution { font-size: 11px; text-align: center; }
+    .attribution { color: hsl(228, 45%, 44%); margin-top: 1rem; }
+    #container {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 280px;
+      height: 439px;
+      border-radius: 1rem;
+      background-color: white;
+    }
+
+    #image {
+      width: 251px;
+      margin-top: 0.9rem;
+      border-radius: 0.5rem;
+    }
+
+    #container p:nth-child(2) {      
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      text-align: center;
+      margin: 1rem 1.5rem;
+    }
+
+    #container p:nth-child(3) {
+      bottom: 3rem;
+      margin-top: 0px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+      font-size: 14px;
+      text-align: center;
+      color: hsl(207, 5%, 60%)
+    }
+
+  </style>
+</head>
+<body>
+    <main id="container">
+      <img id="image" src="./images/image-qr-code.png">
+      <p>Improve your front-end skills by building projects</p>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </main>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rocky Gurung</a>.
+  </div>
+</body>
+</html>
